@@ -5,13 +5,19 @@ export const TopBar = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex space-x-4">
             <a href="#" className="flex items-center text-xs">
-              <span className="mr-1">📱</span> E-OFFICE
+              Website IUH
             </a>
             <a href="#" className="flex items-center text-xs">
-              <span className="mr-1">✉️</span> EMAIL
+              E-Office
             </a>
             <a href="#" className="flex items-center text-xs">
-              <span className="mr-1">📚</span> THƯ VIỆN - THÔNG TIN
+              Email
+            </a>
+            <a href="#" className="flex items-center text-xs">
+              Thư viện
+            </a>
+            <a href="#" className="flex items-center text-xs">
+              Tin nội bộ
             </a>
           </div>
           <div className="flex items-center space-x-4">

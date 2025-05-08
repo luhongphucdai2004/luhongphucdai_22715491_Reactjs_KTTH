@@ -5,7 +5,7 @@ import { SearchOutlined, HomeOutlined, DownOutlined, MenuOutlined } from "@ant-d
 export default function Navigation() {
 
   return (
-    <div className="bg-[#2d2a6e] border-t border-b border-gray-300 sticky top-0 z-50">
+    <div className="bg-[#b30000] border-t border-b border-gray-300 sticky top-0 z-50">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         {/* Mobile menu button */}
           <button

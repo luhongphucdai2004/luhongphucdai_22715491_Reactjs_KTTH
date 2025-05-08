@@ -16,9 +16,10 @@ function App() {
       <div className="max-w-7xl mx-auto flex flex-col">
         <Header />
         <Navigation />
-        <Banner />
+        <div className="flex justify-center">
+          <Banner />
+        </div>
         <div className="flex gap-5 my-5">
-          <SidebarMenu />
           <NewsSection />
         </div>
         <div className="grid grid-cols-3 gap-10 bg-[#0047AB] p-4">
