@@ -1,5 +1,6 @@
 import "./App.css";
 import { Banner } from "./components/Banner";
+import CampusBox from "./components/CampusBox";
 import Footer from "./components/Footer";
 import { Header } from "./components/Header";
 import SidebarMenu from "./components/MenuLeft";
@@ -18,6 +19,13 @@ function App() {
         <div className="flex gap-5 my-5">
           <SidebarMenu />
           <NewsSection />
+        </div>
+        <div className="grid grid-cols-3 gap-10 bg-[#0047AB] p-4">
+          <CampusBox
+            title={"PHÂN HIỆU QUÃNG NGÃI"}
+            imageSrc={"quangngai.jpg"}
+          />
+          <CampusBox title={"PHÂN HIỆU QUÃNG NGÃI"} imageSrc={"thanhhoa.jpg"} />
         </div>
         <Footer />
       </div>
