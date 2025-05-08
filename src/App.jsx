@@ -1,12 +1,10 @@
-import './App.css'
+import "./App.css";
+import { TopBar } from "./components/TopBar";
 
 function App() {
-
-  return (
-    <>
-      <h1>Welcome to React</h1>
-    </>
-  )
+  return <div className="w-full">
+    <TopBar className='w-full'/>
+  </div>;
 }
 
-export default App
+export default App;
