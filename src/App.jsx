@@ -1,4 +1,5 @@
 import "./App.css";
+import { Banner } from "./components/Banner";
 import Footer from "./components/Footer";
 import { Header } from "./components/Header";
 import Navigation from "./components/Navigation";
@@ -11,6 +12,7 @@ function App() {
       <div className="max-w-7xl mx-auto flex flex-col">
         <Header />
         <Navigation/>
+        <Banner />
         <Footer />
       </div>
     </div>
