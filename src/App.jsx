@@ -7,6 +7,7 @@ import SidebarMenu from "./components/MenuLeft";
 import Navigation from "./components/Navigation";
 import NewsSection from "./components/Section";
 import { TopBar } from "./components/TopBar";
+import VideoBox from "./components/VideoBox";
 
 function App() {
   return (
@@ -26,6 +27,12 @@ function App() {
             imageSrc={"quangngai.jpg"}
           />
           <CampusBox title={"PHÂN HIỆU QUÃNG NGÃI"} imageSrc={"thanhhoa.jpg"} />
+          <VideoBox
+            title="VIDEO VÀ HÌNH ẢNH"
+            thumbnailSrc="video-background.jpg"
+            videoUrl="https://www.youtube.com/watch?v=MSSNmxWw4Fs"
+            viewAllLink="/videos"
+          />
         </div>
         <Footer />
       </div>
